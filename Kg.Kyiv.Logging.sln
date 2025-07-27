@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging", "Kg.Kyiv.Logging\Kg.Kyiv.Logging.csproj", "{25E6E8FE-C2E0-4CBD-80ED-2923B3FAFA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging.Console", "Kg.Kyiv.Logging.Console\Kg.Kyiv.Logging.Console.csproj", "{A3527B53-C166-492C-B96C-EA9F184F91AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging.Test", "Kg.Kyiv.Logging.Test\Kg.Kyiv.Logging.Test.csproj", "{B3115B50-8AE3-4194-880E-2F5C128F42EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E6E8FE-C2E0-4CBD-80ED-2923B3FAFA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E6E8FE-C2E0-4CBD-80ED-2923B3FAFA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E6E8FE-C2E0-4CBD-80ED-2923B3FAFA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E6E8FE-C2E0-4CBD-80ED-2923B3FAFA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3527B53-C166-492C-B96C-EA9F184F91AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3527B53-C166-492C-B96C-EA9F184F91AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3527B53-C166-492C-B96C-EA9F184F91AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3527B53-C166-492C-B96C-EA9F184F91AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
