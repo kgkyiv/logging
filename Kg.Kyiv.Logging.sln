@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging.Console", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging.Test", "Kg.Kyiv.Logging.Test\Kg.Kyiv.Logging.Test.csproj", "{B3115B50-8AE3-4194-880E-2F5C128F42EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kg.Kyiv.Logging.IO", "Kg.Kyiv.Logging.IO\Kg.Kyiv.Logging.IO.csproj", "{E00175D0-6EC1-4892-8825-87A93819A554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3115B50-8AE3-4194-880E-2F5C128F42EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00175D0-6EC1-4892-8825-87A93819A554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00175D0-6EC1-4892-8825-87A93819A554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00175D0-6EC1-4892-8825-87A93819A554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00175D0-6EC1-4892-8825-87A93819A554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

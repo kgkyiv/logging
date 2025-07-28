@@ -3,7 +3,7 @@ using Kg.Kyiv.Logging.Formatting;
 
 namespace Kg.Kyiv.Logging.Console;
 
-public sealed class ConsoleLogBuilder : ILogBuilder
+public class ConsoleLogBuilder : ILogBuilder
 {
     private readonly StringBuilder _sb = new();
     private readonly Stack<ConsoleColor> _colorStack = [];

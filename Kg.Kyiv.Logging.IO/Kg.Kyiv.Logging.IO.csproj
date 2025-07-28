@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Kg.Kyiv.Logging.Console\Kg.Kyiv.Logging.Console.csproj" />
-      <ProjectReference Include="..\Kg.Kyiv.Logging.IO\Kg.Kyiv.Logging.IO.csproj" />
+      <ProjectReference Include="..\Kg.Kyiv.Logging\Kg.Kyiv.Logging.csproj" />
     </ItemGroup>
 
 </Project>
