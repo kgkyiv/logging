@@ -2,9 +2,12 @@
 
 using Kg.Kyiv.Logging;
 using Kg.Kyiv.Logging.Console;
+using Kg.Kyiv.Logging.Formatting;
 using Kg.Kyiv.Logging.IO;
 
-Log.Logger = new DefaultLogger([new ConsoleLogBuilder(), new FileLogBuilder("test.log")]);
+Log.Logger = new DefaultLogger(
+    [new ConsoleLogBuilder(), new FileLogBuilder("test.log")],
+    new DefaultLogProcessor(includeLocation: false));
 Log.Verbose("test -1");
 Log.Debug("test 0");
 Log.Information("test 1");

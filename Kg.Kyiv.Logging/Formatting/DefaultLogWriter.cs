@@ -4,7 +4,7 @@ namespace Kg.Kyiv.Logging.Formatting;
 
 // formats log message to
 // [<level>] [@<fileName>:<lineNumber>] [<HH:MM:ss>] <message>
-public readonly struct DefaultLogProcessor : ILogProcessor
+public readonly struct DefaultLogProcessor(bool includeLocation = true, bool includeTime = true) : ILogProcessor
 {
     private static readonly string[] LogLevelTable =
     [
@@ -30,12 +30,18 @@ public readonly struct DefaultLogProcessor : ILogProcessor
         });
     }
 
+    public DefaultLogProcessor()
+        : this(true, true)
+    {
+    }
+
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    private static void WriteHeader(ILogBuilder builder, LogLevel level, string filePath, int lineNumber)
+    private void WriteHeader(ILogBuilder builder, LogLevel level, string filePath, int lineNumber)
     {
         builder.Append(LogLevelTable[(int)level]);
-        builder.Append($" [@{Path.GetFileName(filePath)}:{lineNumber}]");
-        builder.Append($" [{DateTime.Now:HH:mm:ss}] ");
+        if (includeLocation) builder.Append($" [@{Path.GetFileName(filePath)}:{lineNumber}]");
+        if (includeTime) builder.Append($" [{DateTime.Now:HH:mm:ss}]");
+        builder.Append(' ');
     }
     
     public void Write(ILogBuilder builder, LogLevel level, ReadOnlySpan<char> message, string memberName, string filePath,
