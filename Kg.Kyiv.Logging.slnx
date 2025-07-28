@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Kg.Kyiv.Logging.Console/Kg.Kyiv.Logging.Console.csproj" />
+  <Project Path="src/Kg.Kyiv.Logging.IO/Kg.Kyiv.Logging.IO.csproj" />
+  <Project Path="src/Kg.Kyiv.Logging.Test/Kg.Kyiv.Logging.Test.csproj" />
+  <Project Path="src/Kg.Kyiv.Logging/Kg.Kyiv.Logging.csproj" />
+</Solution>
